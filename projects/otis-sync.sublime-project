@@ -1,0 +1,19 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/jgriswold-moran/enrollment/api/otis-sync"
+		},
+		{
+			"path": "/Users/jgriswold-moran/enrollment/clients/withdrawn-scholars"
+		}
+	],    "settings":
+    {
+        "pylinter":
+        {
+            "python_bin": "/Users/jgriswold-moran/.virtualenvs/enrollment/bin/python",
+            "working_dir": "/Users/jgriswold-moran/enrollment/api/otis-sync"
+        }
+    }
+}
+

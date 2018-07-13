@@ -1,0 +1,10 @@
+{
+  "folders": [
+    {
+      "folder_exclude_patterns": [
+        "current_documentation", "dist", "build"
+      ],
+      "path": "/Users/jgriswold-moran/sa-python-sdk"
+    }
+  ]
+}
