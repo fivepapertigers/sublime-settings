@@ -1,2 +1,5 @@
 *.sublime-workspace
 .DS_Store
+*.cache
+*ca-bundle*
+
