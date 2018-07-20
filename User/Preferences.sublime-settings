@@ -4,7 +4,8 @@
 	"file_exclude_patterns":
 	[
 		"*.android.bundle",
-		"*.pyc"
+		"*.pyc",
+		"*.map"
 	],
 	"folder_exclude_patterns":
 	[
@@ -24,7 +25,8 @@
 		"**/client/dist",
 		".serverless",
 		".webpack",
-		"**/package-lock.json"
+		"**/package-lock.json",
+		"tmp"
 	],
 	"font_size": 14,
 	"ignored_packages":

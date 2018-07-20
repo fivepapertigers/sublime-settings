@@ -5,6 +5,12 @@
 	],
 	"installed_packages":
 	[
-		"Dockerfile Syntax Highlighting"
+		"Babel",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
+		"Handlebars",
+		"LESS",
+		"Package Control",
+		"TrailingSpaces"
 	]
 }
