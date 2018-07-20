@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/jgriswold/code/rockefeller",
+            "folder_exclude_patterns": [
+                "static/app/",
+                "market-ember"
+            ]
+		}
+	],
+}
