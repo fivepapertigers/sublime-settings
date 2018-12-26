@@ -2,7 +2,10 @@
 	"folders":
 	[
 		{
-			"path": "/Users/jgriswold/code/rockefeller/market-ember"
+			"path": "/Users/jgriswold/code/rockefeller/market-ember",
+      "folder_exclude_patterns": [
+        "dist"
+      ]
 		}
 	],
 	"settings":

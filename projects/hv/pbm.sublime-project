@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/jgriswold/code/iridium/pbm",
+      "folder_exclude_patterns": [
+          "client"
+      ]
+		},
+    {
+      "path": "/Users/jgriswold/code/iridium/pbm/client"
+    }
+	]
+}

@@ -5,12 +5,31 @@
 	],
 	"installed_packages":
 	[
+		"AsciiDoc",
 		"Babel",
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
+		"DotENV",
+		"Format JSDoc @params",
+		"GitHubinator",
+		"GoSublime",
 		"Handlebars",
+		"INI",
+		"Jinja2",
+		"JSX",
 		"LESS",
+		"Markdown Extended",
+		"MarkdownLivePreview",
+		"MarkdownPreview",
 		"Package Control",
+		"Pretty JSON",
+		"rainbow_csv",
+		"rsub",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-contrib-bashate",
+		"SublimeLinter-eslint",
+		"SublimeLinter-pylint",
 		"TrailingSpaces"
 	]
 }

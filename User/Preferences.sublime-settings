@@ -26,9 +26,11 @@
 		".serverless",
 		".webpack",
 		"**/package-lock.json",
-		"tmp"
+		"tmp",
+		"__pycache__",
+		".pytest_cache"
 	],
-	"font_size": 14,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"RestructuredText",

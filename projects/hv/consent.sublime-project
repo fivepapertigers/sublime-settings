@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"middleware",
+        "js/dist"
+			],
+			"path": "/Users/jgriswold/code/consent"
+		},
+		{
+			"path": "/Users/jgriswold/code/consent/middleware"
+		}
+	],
+	"settings":
+	{
+		"SublimeLinter.linters.pylint.executable": "~/Envs/consent/bin/pylint"
+	}
+}
