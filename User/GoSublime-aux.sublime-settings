@@ -1,4 +1,12 @@
 {
+	"9o.hist./Users/jgriswold/code/rxsls":
+	[
+		"_/Users/jgriswold/code/rxsls",
+		"build",
+		"go test",
+		"GoSublime r18.07.22-1 9o: type `help` for help and command documentation\n\n[ `build` | done: 779.452225ms ]\n  #  \n  ./rxsls.go:4:2: imported and not used: \"encoding/json\"\n  \n  exit status 2\n[ ~/code/rxsls/ ] # \n[ `build` | done: 261.821081ms ]\n  # _/Users/jgriswold/code/rxsls\n  runtime.main_main·f: relocation target main.main not defined\n  runtime.main_main·f: undefined: \"main.main\"\n  \n  exit status 2\n[ ~/code/rxsls/ ] # \n[ `build` | done: 299.305009ms ]\n[ `go test` | done: 212.856678ms ]\n  ?     _/Users/jgriswold/code/rxsls  [no test files]\n[ ~/code/rxsls/ ] # \n[ `go build` | done: 533.020514ms ]\n  # _/Users/jgriswold/code/rxsls\n  ./rxsls.go:4:2: imported and not used: \"encoding/json\"\n  ./rxsls.go:35:1: missing return at end of function\n  \n  exit status 2\n[ ~/code/rxsls/ ] # \n[ `go build` | done: 483.374359ms ]\n  # _/Users/jgriswold/code/rxsls\n  ./rxsls.go:39:30: type RxSLSConfig i\ns not an expression\n  \n  exit status 2\n[ `go build` | done: 362.907075ms ]\n  # _/Users/jgriswold/code/rxsls\n  ./rxsls.go:39:30: cannot use &config (type *RxSLSConfig) as type []byte in argument to json.Unmarshal\n  \n  exit status 2\n[ `go build` | done: 552.469059ms ]\n[ `go build` | done: 186.272748ms ]\n  # _/Users/jgriswold/code/rxsls\n  ./rxsls.go:54:4: no new variables on left side of :=\n  ./rxsls.go:54:32: multiple-value NewRxSLSConfgFromFilePath() in single-value context\n  \n  exit status 2\n\n[ ~/code/rxsls/ ] #",
+		"go build"
+	],
 	"ann": "a18.07.31-1",
 	"install_version": "r18.07.22-1",
 	"version": "r18.07.22-1"

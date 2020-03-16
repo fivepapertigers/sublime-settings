@@ -1,1 +1,7 @@
-{}
+{
+  "linters": {
+    "yamllint": {
+      "executable": "/usr/local/bin/yamllint"
+    }
+  }
+}

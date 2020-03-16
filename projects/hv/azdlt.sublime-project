@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/jgriswold/code/iridium/azdlt"
+		}
+	],
+	"settings":
+	{
+		"SublimeLinter.linters.pylint.executable": "~/Envs/azdlt/bin/pylint",
+    "SublimeLinter.linters.mypy.executable": "~/Envs/azdlt/bin/mypy"
+	}
+}

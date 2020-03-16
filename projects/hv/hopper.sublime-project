@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/jgriswold/code/hopper",
+      "folder_exclude_patterns": ["censusapi"]
+		},
+    {
+      "path": "/Users/jgriswold/code/hopper/censusapi"
+    }
+	],
+  "settings":
+  {
+    "SublimeLinter.linters.pylint.executable": "~/Envs/hopper/bin/pylint"
+  }
+}

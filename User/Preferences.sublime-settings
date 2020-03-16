@@ -1,11 +1,68 @@
 {
+	"added_words":
+	[
+		"metadata",
+		"json",
+		"chaincode",
+		"hyperledger",
+		"struct",
+		"structs",
+		"localstack",
+		"github",
+		"",
+		"",
+		"org",
+		"couchdb",
+		"blockchains",
+		"blockchain",
+		"chaincodes",
+		"sns",
+		"localhost",
+		"http",
+		"javascript",
+		"Offline",
+		"param",
+		"offline",
+		"admin",
+		"backend",
+		"datetime",
+		"programatically",
+		"memoize",
+		"boto3",
+		"refactor",
+		"url",
+		"Upserts",
+		"timestamp",
+		"blockchain's",
+		"datastore",
+		"Dockerfile",
+		"deserialized",
+		"orderers",
+		"requestor",
+		"snakeskin",
+		"pylint",
+		"workflow",
+		"serverless",
+		"cwd",
+		"deserializes",
+		"serializer",
+		"Serializers",
+		"deserialize",
+		"versioned",
+		"longitudinality"
+	],
+	"auto_complete": true,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"detect_indentation": false,
+	"dictionary": "Packages/Language - English/en_US.dic",
 	"file_exclude_patterns":
 	[
 		"*.android.bundle",
 		"*.pyc",
-		"*.map"
+		"*.map",
+		".gitkeep",
+		"**/*.sublime-workspace",
+		"**/*.sublime-project"
 	],
 	"folder_exclude_patterns":
 	[
@@ -34,6 +91,7 @@
 	"ignored_packages":
 	[
 		"RestructuredText",
+		"SublimeLinter-contrib-yamllint",
 		"Vintage"
 	],
 	"node_path": "/Users/jgriswold-moran/.nvm/versions/node/v6.10.1/bin/node",
@@ -42,8 +100,10 @@
 		79
 	],
 	"shift_tab_unindent": true,
+	"show_definitions": false,
 	"show_encoding": true,
+	"spell_check": true,
 	"tab_size": 4,
-	"theme": "Default.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true
 }

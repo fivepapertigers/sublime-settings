@@ -2,6 +2,7 @@
   "folders":
   [
     {
+      "folder_exclude_patterns": [".idea", "metastore_db", "target"],
       "path": "/Users/jgriswold/code/mellon",
     }
   ],

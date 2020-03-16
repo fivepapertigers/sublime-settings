@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/jgriswold/code/feynman"
+		}
+	],
+  "settings": {
+    "SublimeLinter.linters.pylint.executable": "~/Envs/emr-launcher/bin/pylint"
+  }
+}

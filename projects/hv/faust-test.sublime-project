@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/jgriswold/code/faust-test"
+		}
+	],
+  "settings": {
+    "SublimeLinter.linters.pylint.executable": "~/Envs/faust-test/bin/pylint"
+  }
+}

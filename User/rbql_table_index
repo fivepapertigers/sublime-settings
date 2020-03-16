@@ -1,0 +1,14 @@
+/Users/jgriswold/code/consent/certificate_authorities/hv-prod-orderers/ca/index.txt	TAB	simple	
+/Users/jgriswold/code/consent/certificate_authorities/hv-prod-orderers/ca/index.txt.old	TAB	simple	
+/Users/jgriswold/code/consent/e2e/fixtures/oce_css/comma_delimiter.txt	,	quoted	
+/Users/jgriswold/code/hopper/service/test/resources/public2_e.csv	,	quoted	
+/Users/jgriswold/code/hopper/service/test/resources/public2.csv	,	quoted	
+/Users/jgriswold/code/mellon/src/main/resources/mapfiles/biomarker_quest_loinc_code_mapfile.txt	TAB	simple	
+/Users/jgriswold/code/mellon/src/main/resources/mapfiles/biomarker_quest_result_name_mapfile.txt	TAB	simple	
+/Users/jgriswold/code/mellon/src/main/resources/mapfiles/genc_medctn_to_ndc_mapfile.txt	TAB	simple	
+/Users/jgriswold/code/mellon/src/main/resources/mapfiles/lab_mapfile.txt	TAB	simple	
+/Users/jgriswold/code/mellon/src/main/resources/mapfiles/biomarker_neogenomics_test_ordered_local_id_mapfile.txt	TAB	simple	
+/Users/jgriswold/code/dewey/spark/test/resources/blank.csv	,	quoted	
+/Users/jgriswold/code/dewey/spark/providers/nextgen/crosswalk/bin/files_to_crosswalk.txt	,	quoted	
+/Users/jgriswold/code/dewey/spark/test/resources/incomplete_records.csv	,	quoted	
+/Users/jgriswold/code/dewey/spark/test/providers/quest/resources/input/year/month/day/addon/sample.tsv	TAB	simple	

@@ -4,14 +4,16 @@
 		{
 			"folder_exclude_patterns":
 			[
-				"middleware",
-        "js/dist"
+        "dist",
+        "admin-ui/dist",
+        "networks/chaincode/hv_chain/vendor"
 			],
+      "file_exclude_patterns": [
+        "e2e-report.html"
+      ],
+      "follow_symlinks": false,
 			"path": "/Users/jgriswold/code/consent"
 		},
-		{
-			"path": "/Users/jgriswold/code/consent/middleware"
-		}
 	],
 	"settings":
 	{

@@ -1,0 +1,14 @@
+{
+  "folders":
+  [
+    {
+      "path": "/Users/jgriswold/code/mcclane",
+      "folder_exclude_patterns": ["build", "dist"]
+    }
+  ],
+  "settings": {
+    "SublimeLinter.linters.pylint.executable": "~/Envs/mcclane/bin/pylint",
+    "SublimeLinter.linters.pylint.rcfile": "~/code/mcclane/conf/.pylintrc",
+    "SublimeLinter.linters.mypy.executable": "~/Envs/mcclane/bin/mypy",
+  }
+}

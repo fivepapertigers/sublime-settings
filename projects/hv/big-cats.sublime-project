@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/jgriswold/code/big-cats",
+      "folder_exclude_patterns": [
+        "dist"
+      ]
+		}
+	]
+}

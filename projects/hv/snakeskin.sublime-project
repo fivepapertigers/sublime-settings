@@ -1,0 +1,18 @@
+{
+  "folders":
+  [
+    {
+      "path": "/Users/jgriswold/code/snakeskin",
+      "folder_exclude_patterns": [
+        ".mypy_cache",
+        "build",
+        "dist"
+      ],
+    }
+  ],
+  "settings":
+  {
+    "SublimeLinter.linters.pylint.executable": "~/Envs/snakeskin/bin/pylint",
+    "SublimeLinter.linters.mypy.executable": "~/Envs/snakeskin/bin/mypy"
+  }
+}

@@ -5,9 +5,13 @@
 			"folder_exclude_patterns":
 			[
 				"static/app/",
-				"market-ember"
+        "market-ember/dist/**"
 			],
 			"path": "/Users/jgriswold/code/rockefeller"
 		}
-	]
+	],
+  "settings":
+  {
+    "SublimeLinter.linters.pylint.executable": "~/Envs/rockefeller/bin/pylint"
+  }
 }

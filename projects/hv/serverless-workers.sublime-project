@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "folder_exclude_patterns": [
+        "dist", "build"
+      ],
+      "path": "~/code/serverless-workers"
+    }
+  ],
+  "settings": {
+    "SublimeLinter.linters.pylint.executable": "~/Envs/slswrk/bin/pylint"
+  }
+}

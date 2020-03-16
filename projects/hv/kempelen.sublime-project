@@ -1,8 +1,15 @@
 {
 	"folders":
 	[
+    {
+      "path": "/Users/jgriswold/code/kempelen/dags"
+    },
 		{
-			"path": "/Users/jgriswold/code/kempelen/dags"
-		}
-	]
+			"path": "/Users/jgriswold/code/kempelen",
+      "folder_exclude_patterns": "dags"
+    }
+	],
+  "settings": {
+    "SublimeLinter.linters.pylint.executable": "~/Envs/kempelen/bin/pylint"
+  }
 }

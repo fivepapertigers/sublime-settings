@@ -1,0 +1,286 @@
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+margo: 2018/09/27 10:36:47 broker.go:105: gocode_complete#mg9.autoken.58a5e276-3535-4ae4-a92b-d6c7e7cf37d2 PANIC: runtime error: slice bounds out of range
+goroutine 5 [running]:
+gosublime/cmd/margo_pkg.(*Broker).call.func1(0xc4204d0000, 0xc4201d4310)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x146b5c0, 0x1771970)
+	/usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502 +0x229
+gosublime/something-borrowed/gocode.(*auto_complete_context).apropos(0xc4201584c0, 0xc42052e0f0, 0xe4, 0xf0, 0xc42057a0a0, 0x43, 0xffffffffffffffff, 0x1, 0x1, 0xc42057a0a0, ...)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/autocompletecontext.go:349 +0x985
+gosublime/something-borrowed/gocode.(*margoState).Complete(0xc4201880b0, 0x0, 0x0, 0x0, 0xc4200260c0, 0x23, 0xc42005e1e0, 0x1, 0x1, 0xc42052e0f0, ...)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/bridge._margo_.go:86 +0x146
+gosublime/cmd/margo_pkg.(*mGocode).completions(0xc420580080, 0xc42052e0f0, 0xe4, 0xf0, 0xc42057a0a0, 0x43, 0xffffffffffffffff, 0x0, 0x0, 0x0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_gocode.go:95 +0x149
+gosublime/cmd/margo_pkg.(*mGocode).Call(0xc420580080, 0x1513920, 0xc4204d0000, 0xc4201d4310, 0x0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/m_gocode.go:76 +0x2c8
+gosublime/cmd/margo_pkg.(*Broker).call(0xc4201d4310, 0xc4204d0000, 0x154ff80, 0xc420580080)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:113 +0x9a
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:188 +0x9b
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc4201d6000, 0x1000, 0xc420000300, 0xc420378000, 0x7)
+	/usr/local/Cellar/go/1.10.3/libexec/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc4201d6000, 0x1000, 0x1000, 0xc420378001, 0x0, 0x0)
+	/usr/local/Cellar/go/1.10.3/libexec/src/syscall/zsyscall_darwin_amd64.go:947 +0x5f
+syscall.Read(0x0, 0xc4201d6000, 0x1000, 0x1000, 0x14433e0, 0xc4205800d8, 0x1843000)
+	/usr/local/Cellar/go/1.10.3/libexec/src/syscall/syscall_unix.go:162 +0x49
+internal/poll.(*FD).Read(0xc4200a8000, 0xc4201d6000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.10.3/libexec/src/internal/poll/fd_unix.go:153 +0x116
+os.(*File).read(0xc4200a6000, 0xc4201d6000, 0x1000, 0x1000, 0xc42008f0d8, 0x14d24e0, 0xc420580080)
+	/usr/local/Cellar/go/1.10.3/libexec/src/os/file_unix.go:226 +0x4e
+os.(*File).Read(0xc4200a6000, 0xc4201d6000, 0x1000, 0x1000, 0xc42002e070, 0xc4200799c8, 0x1003805)
+	/usr/local/Cellar/go/1.10.3/libexec/src/os/file.go:107 +0x6a
+bufio.(*Reader).fill(0xc420196240)
+	/usr/local/Cellar/go/1.10.3/libexec/src/bufio/bufio.go:100 +0x11e
+bufio.(*Reader).ReadSlice(0xc420196240, 0xc4200ba40a, 0xc420079a88, 0x1003537, 0xc4200ba0c0, 0xc4200ba420, 0xc420079bb8)
+	/usr/local/Cellar/go/1.10.3/libexec/src/bufio/bufio.go:341 +0x2c
+bufio.(*Reader).ReadBytes(0xc420196240, 0xc420079b0a, 0xc420580080, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.10.3/libexec/src/bufio/bufio.go:419 +0x6b
+gosublime/cmd/margo_pkg.(*Broker).accept(0xc4201d4310, 0xc4200ba0c0, 0xc4201d4300)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:128 +0x4c
+gosublime/cmd/margo_pkg.(*Broker).Loop(0xc4201d4310, 0x1510001)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:213 +0x153
+gosublime/cmd/margo_pkg.Main()
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:140 +0x585
+main.main()
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo/main.go:8 +0x20
+
+goroutine 34 [chan receive]:
+gosublime/something-borrowed/gocode.new_file_reader.func1(0xc4201600a0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:229 +0x71
+created by gosublime/something-borrowed/gocode.new_file_reader
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/something-borrowed/gocode/utils.go:226 +0x88
+
+goroutine 35 [chan receive]:
+gosublime/cmd/margo_pkg.init.1.func1()
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/g_autoinst.go:114 +0xd1
+created by gosublime/cmd/margo_pkg.init.1
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/g_autoinst.go:113 +0x35
+
+goroutine 36 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/usr/local/Cellar/go/1.10.3/libexec/src/runtime/time.go:102 +0x166
+gosublime/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/oom.go:31 +0xae
+created by gosublime/cmd/margo_pkg.startOomKiller
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/oom.go:10 +0x3f
+
+goroutine 37 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/usr/local/Cellar/go/1.10.3/libexec/src/runtime/time.go:102 +0x166
+gosublime/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc4201d4310, 0xc4201741a0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:122 +0xda
+created by gosublime/cmd/margo_pkg.Main
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:120 +0x68d
+
+goroutine 38 [chan receive]:
+gosublime/cmd/margo_pkg.Main.func2(0xc4201d4310)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:135 +0xf6
+created by gosublime/cmd/margo_pkg.Main
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/main.go:134 +0x557
+
+goroutine 6 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 7 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 8 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 9 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 10 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 11 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 12 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 13 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 14 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 15 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 16 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 65 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 66 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 67 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 68 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 69 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 70 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 71 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+goroutine 72 [chan receive]:
+gosublime/cmd/margo_pkg.(*Broker).worker(0xc4201d4310, 0xc42009c0c0, 0xc4200ba0c0)
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:187 +0xb3
+created by gosublime/cmd/margo_pkg.(*Broker).Loop
+	/Users/jgriswold/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/gosublime/cmd/margo_pkg/broker.go:209 +0x117
+
+
+
+** 2018-09-27 10:36:47.775505 **:
+GsComplete: broker: gocode_complete#mg9.autoken.58a5e276-3535-4ae4-a92b-d6c7e7cf37d2 PANIC
+--------------------------------
+
+** 2018-09-27 10:44:53.925748 **:
+GsComplete: Blocking call(gocode_complete) aborted: Install is not done
+--------------------------------
+
+** 2018-09-27 10:44:54.578346 **:
+GsComplete: Blocking call(gocode_complete) aborted: Install is not done
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jgriswold/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jgriswold/go", InstallSuffix:""}

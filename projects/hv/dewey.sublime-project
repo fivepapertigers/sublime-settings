@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/jgriswold/code/dewey"
+		}
+	],
+  "settings": {
+    "SublimeLinter.linters.pylint.executable": "~/Envs/dewey/bin/pylint"
+  }
+}

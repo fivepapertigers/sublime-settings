@@ -1,0 +1,29 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"test/stats.zip",
+				"private-requirements.txt",
+				".DS_Store"
+			],
+			"folder_exclude_patterns":
+			[
+				"test/stats/.pytest_cache",
+				".serverless",
+				"test/.pytest_cache",
+				".pytest_cache",
+				"node_modules",
+				"protobufs/__pycache__",
+				"test/spark/.pytest_cache"
+			],
+			"path": "/Users/jgriswold/code/sutton"
+		}
+	],
+	"settings":
+	{
+		"SublimeLinter.linters.mypy.executable": "~/Envs/sutton/bin/mypy",
+		"SublimeLinter.linters.pylint.executable": "~/Envs/sutton/bin/pylint"
+	}
+}

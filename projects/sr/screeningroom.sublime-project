@@ -3,6 +3,13 @@
 	[
 		{
 			"path": "~/code/screeningroom",
+      "file_exclude_patterns": [
+        "bundle.js"
+      ],
+      "folder_exclude_patterns": [
+        "doc",
+        "vendor"
+      ]
 		}
 	],
   "settings": {

@@ -4,5 +4,9 @@
 		{
 			"path": "/Users/jgriswold/code/iridium"
 		}
-	]
+	],
+  "settings":
+  {
+    "SublimeLinter.linters.pylint.executable": "~/Envs/azdlt/bin/pylint"
+  }
 }
