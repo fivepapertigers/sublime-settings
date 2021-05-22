@@ -5,13 +5,15 @@
 			"folder_exclude_patterns":
 			[
 				"static/app/",
-        "market-ember/dist/**"
+        "market-ember/dist/**",
+        "venv"
 			],
-			"path": "/Users/jgriswold/code/rockefeller"
+			"path": "~/code/rockefeller"
 		}
 	],
   "settings":
   {
-    "SublimeLinter.linters.pylint.executable": "~/Envs/rockefeller/bin/pylint"
+    "SublimeLinter.linters.pylint.executable": "~/.virtualenvs/rockefeller/bin/pylint",
+    "SublimeLinter.linters.mypy.executable": "~/.virtualenvs/rockefeller/bin/mypy"
   }
 }

@@ -2,10 +2,10 @@
 	"folders":
 	[
 		{
-			"path": "/Users/jgriswold/code/dewey"
+			"path": "~/code/dewey"
 		}
 	],
   "settings": {
-    "SublimeLinter.linters.pylint.executable": "~/Envs/dewey/bin/pylint"
+    "SublimeLinter.linters.pylint.executable": "~/.virtualenvs/dewey/bin/pylint"
   }
 }

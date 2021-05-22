@@ -8,6 +8,6 @@
     }
   ],
   "settings": {
-    "SublimeLinter.linters.pylint.executable": "~/Envs/slswrk/bin/pylint"
+    "SublimeLinter.linters.pylint.executable": "~/.virtualenvs/slswrk/bin/pylint"
   }
 }

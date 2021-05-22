@@ -2,10 +2,10 @@
 	"folders":
 	[
 		{
-			"path": "/Users/jgriswold/code/roget"
+			"path": "~/code/roget"
 		}
 	],
   "settings": {
-    "SublimeLinter.linters.pylint.executable": "~/Envs/roget/bin/pylint"
+    "SublimeLinter.linters.pylint.executable": "~/.virtualenvs/roget/bin/pylint"
   }
 }

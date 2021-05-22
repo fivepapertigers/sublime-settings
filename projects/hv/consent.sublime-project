@@ -12,11 +12,11 @@
         "e2e-report.html"
       ],
       "follow_symlinks": false,
-			"path": "/Users/jgriswold/code/consent"
+			"path": "~/code/consent"
 		},
 	],
 	"settings":
 	{
-		"SublimeLinter.linters.pylint.executable": "~/Envs/consent/bin/pylint"
+		"SublimeLinter.linters.pylint.executable": "~/.virtualenvs/consent/bin/pylint"
 	}
 }

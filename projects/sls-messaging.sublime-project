@@ -2,11 +2,11 @@
 	"folders":
 	[
 		{
-			"path": "/Users/jgriswold/code/sls-messaging"
+			"path": "~/code/sls-messaging"
 		}
 	],
   "settings":
   {
-    "SublimeLinter.linters.pylint.executable": "~/Envs/sls-messaging/bin/pylint"
+    "SublimeLinter.linters.pylint.executable": "~/.virtualenvs/sls-messaging/bin/pylint"
   }
 }

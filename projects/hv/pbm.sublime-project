@@ -2,13 +2,13 @@
 	"folders":
 	[
 		{
-			"path": "/Users/jgriswold/code/iridium/pbm",
+			"path": "~/code/iridium/pbm",
       "folder_exclude_patterns": [
           "client"
       ]
 		},
     {
-      "path": "/Users/jgriswold/code/iridium/pbm/client"
+      "path": "~/code/iridium/pbm/client"
     }
 	]
 }

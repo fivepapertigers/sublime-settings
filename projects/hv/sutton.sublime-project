@@ -16,14 +16,24 @@
 				".pytest_cache",
 				"node_modules",
 				"protobufs/__pycache__",
-				"test/spark/.pytest_cache"
+				"test/spark/.pytest_cache",
+        "ui"
 			],
-			"path": "/Users/jgriswold/code/sutton"
-		}
+			"path": "~/code/sutton"
+		}, {
+      "file_exclude_patterns":
+      [
+      ],
+      "folder_exclude_patterns":
+      [
+        "build"
+      ],
+      "path": "~/code/sutton/ui"
+    }
 	],
 	"settings":
 	{
-		"SublimeLinter.linters.mypy.executable": "~/Envs/sutton/bin/mypy",
-		"SublimeLinter.linters.pylint.executable": "~/Envs/sutton/bin/pylint"
+		"SublimeLinter.linters.mypy.executable": "~/.virtualenvs/sutton/bin/mypy",
+		"SublimeLinter.linters.pylint.executable": "~/.virtualenvs/sutton/bin/pylint"
 	}
 }

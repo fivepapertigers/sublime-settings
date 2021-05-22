@@ -2,11 +2,13 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"GoSublime"
 	],
 	"installed_packages":
 	[
 		"AsciiDoc",
 		"Babel",
+		"Base Encoder",
 		"Blame Explorer",
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
@@ -21,6 +23,7 @@
 		"INI",
 		"Java Velocity",
 		"Jedi - Python autocompletion",
+		"Jedi Syntax",
 		"Jinja2",
 		"JSX",
 		"LESS",
@@ -45,7 +48,6 @@
 		"SublimeLinter-eslint",
 		"SublimeLinter-pylint",
 		"Terraform",
-		"TrailingSpaces",
-		"TypeScript"
+		"TrailingSpaces"
 	]
 }

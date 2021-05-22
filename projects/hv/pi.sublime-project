@@ -2,13 +2,13 @@
 	"folders":
 	[
 		{
-			"path": "/Users/jgriswold/code/PatientIntersector",
+			"path": "~/code/PatientIntersector",
       "folder_exclude_patterns": [".idea", "target", "project/project"]
 		}
 	],
   "settings":
   {
-    "SublimeLinter.linters.pylint.executable": "~/Envs/sutton/bin/pylint",
-    "SublimeLinter.linters.mypy.executable": "~/Envs/sutton/bin/mypy"
+    "SublimeLinter.linters.pylint.executable": "~/.virtualenvs/sutton/bin/pylint",
+    "SublimeLinter.linters.mypy.executable": "~/.virtualenvs/sutton/bin/mypy"
   }
 }

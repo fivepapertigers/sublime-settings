@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/jacob/code/serverless-endpoints"
+		}
+	],
+  "settings": {
+    "SublimeLinter.linters.pylint.executable": "~/.virtualenvs/slsendpt/bin/pylint",
+    "SublimeLinter.linters.mypy.executable": "~/.virtualenvs/slsendpt/bin/mypy"
+  }
+}

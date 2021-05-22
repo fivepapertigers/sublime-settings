@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/jacob/code/redbird-py"
+		}
+	],
+  "settings":
+  {
+    "SublimeLinter.linters.mypy.executable": "~/.virtualenvs/redbird-py/bin/mypy",
+    "SublimeLinter.linters.pylint.executable": "~/.virtualenvs/redbird-py/bin/pylint"
+  }
+}

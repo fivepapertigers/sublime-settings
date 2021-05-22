@@ -2,11 +2,11 @@
 	"folders":
 	[
 		{
-			"path": "/Users/jgriswold/code/iridium"
+			"path": "~/code/iridium"
 		}
 	],
   "settings":
   {
-    "SublimeLinter.linters.pylint.executable": "~/Envs/azdlt/bin/pylint"
+    "SublimeLinter.linters.pylint.executable": "~/.virtualenvs/azdlt/bin/pylint"
   }
 }
