@@ -2,7 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"GoSublime"
+		"GoSublime",
 	],
 	"installed_packages":
 	[
@@ -49,5 +49,5 @@
 		"SublimeLinter-pylint",
 		"Terraform",
 		"TrailingSpaces"
-	]
+	],
 }

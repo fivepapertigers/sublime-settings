@@ -87,14 +87,14 @@
 		"__pycache__",
 		".pytest_cache"
 	],
-	"font_size": 13,
+	"font_size": 16,
 	"ignored_packages":
 	[
 		"AdvancedNewFile",
 		"GoSublime",
 		"RestructuredText",
 		"SublimeLinter-contrib-yamllint",
-		"Vintage"
+		"Vintage",
 	],
 	"node_path": "/Users/jgriswold-moran/.nvm/versions/node/v6.10.1/bin/node",
 	"rulers":
@@ -108,5 +108,5 @@
 	"tab_size": 4,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"typescript_tsdk": "node_modules/typescript/lib"
+	"typescript_tsdk": "node_modules/typescript/lib",
 }
